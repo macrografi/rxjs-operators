@@ -11,7 +11,7 @@ const source = from([
 const example = source.pipe(
   map(({ name, age }) => {
     name;
-    return age + 5;
+    return name + ' : ' + age + 5;
   })
 );
 //output: "Joe","Frank","Ryan"
